@@ -1,4 +1,4 @@
-# woodtrain electric locomotive
+# wood train -  silent electric locomotive
 
 DIY Holz-Eisenbahn Elektrische Lokomotive
 
@@ -100,7 +100,8 @@ ToDo-List
     -   https://gitlab.com/kicad/libraries/kicad-templates/-/tree/master/Projects?ref_type=heads
     -   https://github.com/whmountains/FeatherWing-template-KiCad
     -   https://github.com/mignon-p/FeatherWing-template-KiCad/tree/master/FeatherWing_KC5
--   create dual TMC2300 FeatherWing
+-   create dual TMC2300 [FeatherWing](https://github.com/adafruit/awesome-feather)
+    - https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2300-BOB_datasheet_rev1.00.pdf
     -   https://shop.watterott.com/SilentStepStick-Protector-Schutz-fuer-Schrittmotortreiber
     -   https://github.com/watterott/SilentStepStick/blob/master/hardware/StepStick-Protector_v20.pdf
 -   write CircuitPython TMC2300 library
@@ -121,7 +122,7 @@ ToDo-List
     all files in woodtrain-locomotive
 </span> by
 <a xmlns:cc="http://creativecommons.org/ns#"
-        href="https://github.com/s-light/VARTA_Powerpack_Type_57959"
+        href="https://github.com/s-light/woodtrain-locomotive"
         property="cc:attributionName"
         rel="cc:attributionURL">
     Stefan Krüger (s-light)
