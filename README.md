@@ -31,12 +31,17 @@ first experiments will be with these mini stepper motors:
 -   [2-phase 4-wire Mini 15mm Stepper Motor stepping 18 Degree with 12th Copper Gear](https://www.ebay.de/itm/404015504530)
 -   [Mini 2-phase 4-Wire Stepper Motor 15MM Mini Stepping Motor 16teeth 0.25 Modulus](https://www.ebay.de/itm/404275426573)
 
+more details at [hw/motor.md](hw/motor.md)
+
 ### motor driver
 
-based on [TCM2300 (Low voltage silent stepper motor driver)](https://www.analog.com/en/products/tmc2300.html)
+based on [TMC2300 (Low voltage silent stepper motor driver)](https://www.analog.com/en/products/tmc2300.html)
 
-hopefully i get to make a custom Featherwing with 2x TCM2300 onboard.
+hopefully i get to make a custom FeatherWing:
+[FeatherWing dual TMC2300](https://github.com/s-light/FeatherWing_dual_TMC2300)
+
 alternative we can use the [_breakout board_](https://www.reichelt.de/de/de/shop/produkt/breakout_board_fuer_tmc2300_schrittmotor-treiber-284703)
+and this will get to bulky for our locomotive..
 
 ### controller
 
@@ -94,21 +99,16 @@ we try with bigger wheel Ø.
 
 ## state
 
-ToDo-List
+### ToDo
 
--   find FeatherWing template for kicad
-    -   https://gitlab.com/kicad/libraries/kicad-templates/-/tree/master/Projects?ref_type=heads
-    -   https://github.com/whmountains/FeatherWing-template-KiCad
-    -   https://github.com/mignon-p/FeatherWing-template-KiCad/tree/master/FeatherWing_KC5
--   create dual TMC2300 [FeatherWing](https://github.com/adafruit/awesome-feather)
-    - https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2300-BOB_datasheet_rev1.00.pdf
-    -   https://shop.watterott.com/SilentStepStick-Protector-Schutz-fuer-Schrittmotortreiber
-    -   https://github.com/watterott/SilentStepStick/blob/master/hardware/StepStick-Protector_v20.pdf
+-   create dual TMC2300 [FeatherWing](https://github.com/s-light/FeatherWing_dual_TMC2300)
 -   write CircuitPython TMC2300 library
     -   https://github.com/analogdevicesinc/PyTrinamic/issues/118
     -   https://github.com/analogdevicesinc/PyTrinamic/blob/master/pytrinamic/ic/TMC2300.py
     -   https://github.com/teemuatlut/TMCStepper
     -   https://forum.arduino.cc/t/arduino-and-tmc2300/873439
+- test motors
+
 
 # License
 
@@ -139,3 +139,13 @@ i see this project as [Open Source Hardware (OSHW)](https://www.oshwa.org/defini
 ![OSHW logo](http://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg)
 
 <!-- license info end -->
+
+
+---
+
+<style>
+    img {
+        max-width: 80vw;
+        max-height: 70vh;
+    }
+</style>
