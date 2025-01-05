@@ -37,7 +37,7 @@ more details at [hw/motor.md](hw/motor.md)
 
 based on [TMC2300 (Low voltage silent stepper motor driver)](https://www.analog.com/en/products/tmc2300.html)
 
-hopefully i get to make a custom FeatherWing:
+hopefully i get to make a custom FeatherWing:  
 [FeatherWing dual TMC2300](https://github.com/s-light/FeatherWing_dual_TMC2300)
 
 alternative we can use the [_breakout board_](https://www.reichelt.de/de/de/shop/produkt/breakout_board_fuer_tmc2300_schrittmotor-treiber-284703)
