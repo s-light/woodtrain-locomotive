@@ -136,7 +136,7 @@ all software parts/files are licensed under [MIT](LICENSE).
 
 i see this project as [Open Source Hardware (OSHW)](https://www.oshwa.org/definition/)
 
-<img alt="OSHW logo" style="max-width: 10em;max-height: 10em;" src="http://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg" />
+<img alt="OSHW logo" width="100em" src="http://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg" />
 <!-- license info end -->
 
 
